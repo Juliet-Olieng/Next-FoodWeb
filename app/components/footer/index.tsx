@@ -4,19 +4,26 @@ import { faPinterest, faInstagram, faTwitter, faFacebook } from '@fortawesome/fr
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white py-12">
+    <div className="bg-red-200 text-white py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Foodish</h3>
+            <h3 className="text-xl font-semibold mb-4 text-red-500">Foodish</h3>
             <p>Continue Foodish 2023 all rights reserved</p>
-            <h3 className="text-xl font-semibold mt-6">Follow Us On</h3>
-            <div className="flex space-x-4 mt-2">
+            <h3 className="text-xl font-semibold mt-6 text-red-500">Follow Us On</h3>
+            {/* <div className="flex space-x-4 mt-2">
               <FontAwesomeIcon className="text-white text-2xl" icon={faPinterest} />
               <FontAwesomeIcon className="text-white text-2xl" icon={faInstagram} />
               <FontAwesomeIcon className="text-white text-2xl" icon={faTwitter} />
               <FontAwesomeIcon className="text-white text-2xl" icon={faFacebook} />
-            </div>
+            </div> */}
+            <div className="flex space-x-4 mt-2">
+  <FontAwesomeIcon className="text-black" icon={faPinterest} style={{ fontSize: '50px' }} />
+  <FontAwesomeIcon className="text-black" icon={faInstagram} style={{ fontSize: '1.5rem' }} />
+  <FontAwesomeIcon className="text-black" icon={faTwitter} style={{ fontSize: '1.5rem' }} />
+  <FontAwesomeIcon className="text-black" icon={faFacebook} style={{ fontSize: '1.5rem' }} />
+</div>
+
           </div>
 
           <div>

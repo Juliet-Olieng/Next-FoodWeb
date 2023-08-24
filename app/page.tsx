@@ -8,7 +8,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-<div className="h-screen-full bg-pink-200 text-black ">
+<div className="h-screen-full bg-pink-100 text-black ml-3 ">
   <NavBar/>
   <Page1/>
  <Body/>
